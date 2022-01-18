@@ -45,4 +45,4 @@ cuenta1.depósito(500).depósito(500).depósito(1000).retiro(500).generar_inter�
 cuenta2 = CuentaBancaria(tasa_interés = 0.01)
 cuenta2.depósito(1000).depósito(3000).retiro(200).retiro(400).retiro(600).retiro(800).generar_interés().mostrar_info_cuenta()
 
-cuenta1.toda_la_info()
+cuenta3 = CuentaBancaria(0.01).toda_la_info()
